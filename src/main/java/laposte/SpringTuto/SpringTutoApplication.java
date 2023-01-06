@@ -16,7 +16,7 @@ public class SpringTutoApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(SpringTutoApplication.class, args);
-		System.out.println("Fini");
+
 	}
 
 }

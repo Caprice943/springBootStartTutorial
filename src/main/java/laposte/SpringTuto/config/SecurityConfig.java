@@ -17,7 +17,8 @@ public class SecurityConfig {
                 .permitAll()
                 .and()
                 .csrf()
-                .disable();
+                .disable()
+                .headers().frameOptions().sameOrigin();
         return http.build();
     }
 }
